@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* banner */
+
+.banner-container {
+    height: 100vh;
+    background-image: url("/asset/image/background.jpg"), 
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 86px;
+}
+
+.clr-red {
+    color: rgb(245, 44, 44);;
+}
